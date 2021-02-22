@@ -6,6 +6,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [CalculatorComponent],
+  exports: [CalculatorComponent],
   imports: [
     CommonModule
   ]
