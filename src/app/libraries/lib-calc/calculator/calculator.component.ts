@@ -14,4 +14,10 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  add(v1,v2){
+    this.result = parseFloat(v1) + parseFloat(v2)
+  }
+  subtract(v1,v2){
+    this.result = parseFloat(v1) - parseFloat(v2)
+  }
 }
